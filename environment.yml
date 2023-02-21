@@ -1,0 +1,15 @@
+name: dev-tools-shoshlab
+channels:
+ - conda-forge
+dependencies:
+ - black
+ - isort
+ - jupyter
+ - jupyter_contrib_nbextensions
+#  - jsonschema[format-nogpl]
+ - mamba
+ - nbconvert<6
+ - python=3.9
+ - pytest
+#  - ruff
+ - webcolors
