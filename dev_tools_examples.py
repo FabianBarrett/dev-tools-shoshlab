@@ -19,7 +19,7 @@
 # There are lots of different kinds of tests, some of the most common of which are:
 # * Unit tests: test isolated properties ("units") of the code.
 # * Integration tests: test how one bit of code interacts ("integrates") with another bit of code.
-# * Regression tests: test how the current version of the code (or data) compares to a previous version.
+# * Regression tests: test how the current version of the code (or data) compares to a previous version (whether the code has "regressed").
 # * ...
 #
 # Here, we'll run through some of the functionality of a well-known testing package in Python, `pytest`.
@@ -49,16 +49,18 @@ def x_plus_y_errorhandling(x, y):
     if validate_type(x) and validate_type(y):
         return x + y
     else:
-        raise TypeError("Input types do not have the appropriate types for addition.")
+        raise TypeError("Input types are not appropriate for addition.")
 
 
 # %%
+
+# Note: In `pytest`, tests take the form of a function whose names match `test_*`
 
 # Run the test for a single example
 def test_x_plus_y_basic(x=2, y=2):
     assert x_plus_y(x, y) == 4
 
-
+# Run the test such that we expect it to fail
 def test_x_plus_y_expect_to_fail(x=2, y=2):
     assert x_plus_y(x, y) == 5
 
