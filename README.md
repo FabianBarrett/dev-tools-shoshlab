@@ -1,3 +1,3 @@
-# A Repository Bundling An Introduction To Useful Developer Tools
+# A Brief Primer On Some DevTools
 
-TODO.
+For the ShoshLab, on February 24, 2023.
