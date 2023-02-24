@@ -5,6 +5,9 @@
 # 2. Formatting
 # 3. Writing Readable Code
 # 4. Further Recommended Resources
+# 
+# Note: You can run this file in a pre-installed environment here:
+# [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabianBarrett/dev-tools-shoshlab/main)
 
 # %% [markdown]
 
