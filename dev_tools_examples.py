@@ -3,11 +3,8 @@
 # # Today's Topics:
 # 1. Testing
 # 2. Formatting
-# 3. Good Naming Practices
-# 4. (If There Is Time) Environments
-# 5. Further Recommended Resources
-#
-# **TODO**: Add a link to the Binder.
+# 3. Writing Readable Code
+# 4. Further Recommended Resources
 
 # %% [markdown]
 
@@ -114,7 +111,7 @@ def test_x_plus_y_even_less_basic(x, y):
 # * Easier to spot mistakes.
 # * ...
 #
-# Most languages have their own formatter, e.g. Julia has `JuliaFormatter.jl`, R has `styler`, and Python has `black`, `isort`
+# Most languages have their own formatter, e.g. Julia has [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl), R has [`styler`](https://styler.r-lib.org/), and Python has `black`, `isort`
 # (and other tools such as `mypy` that we won't talk about today).
 # Note that there are VS Code extensions (as well as command line options) for most of these.
 
@@ -135,15 +132,18 @@ from math import sqrt
 
 # %% [markdown]
 
-# ## Good Naming Practices
+# ## Writing Readable Code
+
+# See `.pdf`. 
 
 # %% [markdown]
 
 # ## Recommended Resources
 # 
-# If you want to keep looking into these tools and read on, I've found these to be useful resources in the past:
+# If you want to keep looking into these tools and read on, I've found these to be useful starting points in the past:
 # 1. [The Missing Semester Of Your CS Education](https://missing.csail.mit.edu/)
 # 2. [The Art Of Readable Code](https://mcusoft.files.wordpress.com/2015/04/the-art-of-readable-code.pdf)
+# 3. Reproducible Code Through Environments: e.g. [`renv`](https://rstudio.github.io/renv/articles/renv.html) or [`conda`](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 # %%
 
