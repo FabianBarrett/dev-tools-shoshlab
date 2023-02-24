@@ -5,6 +5,6 @@ dependencies:
  - black
  - isort
  - jupyter
- - mamba
+ - numpy
  - pytest
  - python=3.9
